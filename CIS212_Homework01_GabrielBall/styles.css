@@ -1,0 +1,180 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+p
+{
+  margin-left: 32px;
+  width: 800px;
+}
+
+.fs18
+{
+  font-size: 18px;
+}
+
+h1, h2, ul
+{
+  margin-left: 32px;
+}
+
+h1, h2
+{
+  color: #9a1f22;
+}
+
+h1
+{
+  margin-bottom: 0;
+}
+
+h3
+{
+  margin-left: 54px;
+}
+
+.creditHours
+{
+  text-align: center;
+  font-size: 18px;
+}
+
+table
+{
+  margin-left: 80px;
+  border: 5px;
+  border-width: 3px;
+  border-radius: 50px;
+  border-color: #D45356;
+  border-style: solid;
+  padding: 25px;
+}
+
+tr:nth-child(even)
+{
+  background-color: LightGrey;
+}
+
+td:hover, th:hover
+{
+  background-color: #D45356;
+}
+
+th
+{
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+td
+{
+  text-align: center;
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+.myButtons
+{
+  width: 175px;
+  background-color: inherit;
+  border-radius: 15px;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "Times New Roman";
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.myButtons:hover
+{
+  background-color: LightBlue;
+  transition-duration: 300ms;
+}
+
+.returnButton
+{
+  color: #097FDC;
+  margin-left: 0px;
+  width: 72px;
+  font-size: 18px;
+  font-family: "Times New Roman";
+  text-align: center;
+  background-color: #E8e8e8;
+  border-width: 1px;
+  border-color: #9a1f22;
+  border-radius: 15px;
+  margin: 10px 0px 10px 0px;
+}
+
+.returnButton:hover
+{
+  background-color: #FFFAFB;
+  transition-duration: 1000ms;
+}
+
+hr
+{
+  width: 800px;
+  margin-left: 32px;
+  border-color: Black;
+}
+
+.Info
+{
+  font-size: 20px;
+}
+
+.CompElecInfo
+{
+  margin-left: 32px;
+  font-size: 18px;
+}
+
+li
+{
+  font-size: 18px;
+}
+
+img
+{
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  margin-left: 8px;
+  float left;
+}
+
+#title
+{
+  /* #9a1f22 dark red */
+  background-color: #9a1f22;
+  text-align: left;
+  color: White;
+  font-family: serif;
+  width: 430px;
+  margin-top: 28px;
+  margin-left: 15px;
+  float: left;
+}
+
+.heading
+{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #9a1f22
+}
+
+#CISAAS
+{
+  font-size: 1.7em;
+}
+
+.Marg16Left
+{
+  margin-left: 16px;
+  width: 816px;
+}
